@@ -7,13 +7,13 @@ Feel free to use your own web server, but for convenience we've bundled a basic 
 
 Then go to http://localhost:8080
 
-# What we're looking
+# What we're looking for
 
 Turn this into something you'd be proud of. This includes, but is not limited to:
 
 - Is it visually appealing?
 - Is it performant?
-- Is is responsive?
+- Is it responsive?
 - Is the UX sensible?
 - Is the code efficient?
 - Is the code easy to read?
@@ -21,9 +21,11 @@ Turn this into something you'd be proud of. This includes, but is not limited to
 - Does it have any bugs?
 - Is it well tested?
 
-Feel free to make any changes you want to it. **Own** it. The only thing it _must_ do is just to display the list of books, their cover image, title, and author. If you want to add more functionality, rearrange the layout, whatever, that's totally fine and up to you.
+Feel free to make any changes you want to it. **Own** it. The only thing it _must_ do is to display the list of books, their cover image, title, and author. If you want to add more functionality, rearrange the layout, whatever, that's totally fine and up to you.
 
-Remember that this exercise is about _building a product_, and not just _writing code_. 
+Remember that this exercise is about _building a product_, and not just _writing code_.
+
+Also, note that there are some deliberate poor design/coding choices that have been made here. It is expected that you will improve upon them.  
 
 ### Requirements
 
