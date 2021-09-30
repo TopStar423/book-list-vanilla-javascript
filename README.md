@@ -30,9 +30,9 @@ Also, note that there are some deliberate poor design/coding choices that have b
 ### Requirements
 
 - Vanilla JS - no jQuery, no React, no frameworks, no external libraries.
-- Use a CSS framework (e.g. Bootstrap 5 would be fine)
+- Use a CSS framework (e.g. Tailwind or Bootstrap would be fine)
 - Please provide commentary on changes and reasoning (in-code or separately)
 
 ### Time limit
 
-There is no time limit. Submit only when you are proud of the work. However, please indicate how long you worked on it. We will be assessing balance between polish and execution speed. 
+You are free to spend any amount of time **up to 3 hours**. When submitting, please indicate how long you worked on it. We will be assessing balance between polish and execution speed. 
