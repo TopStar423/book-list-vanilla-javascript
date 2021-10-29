@@ -1,0 +1,22 @@
+/* Set book cover image size on desktop */
+.book-img {
+    width: 120px;
+    height: 180px;
+}
+
+/* Add zoom animation class to zoom on hover */
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 576px) {
+    /* Set book cover image size for mobile */
+    .book-img {
+        width: 200px;
+        height: 300px;
+    }
+}
