@@ -7,14 +7,21 @@
   </head>
 
   <body>
-    <div class="d-flex flex-column justify-center align-items-center m-4 container-fluid">
-      <h1 class="mb-4">Browse the books</h1>
+    <div id="navbar" class="d-flex justify-content-between align-items-center">
+      <a href="#" id="logo" class="d-flex">
+        <span class="logo-highlight">Au</span>
+        <span>book</span>
+      </a>
+      <input id="search" placeholder="Search by title or author" onkeyup="searchBooks()"/>
+    </div>
+    <div class="d-flex flex-column justify-center align-items-center container-fluid content-body">
       <div id="loading-icon" class="spinner-border" role="status"> <!--Add loading icon so that we can show loading status while fetching the book data-->
         <span class="sr-only">Loading...</span>
       </div>
-      <div id="content" class="row"></div>
+      <div id="content" class="row w-100"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts/book.js"></script>
+    <script src="scripts/scroll.js"></script>
   </body>
 </html>

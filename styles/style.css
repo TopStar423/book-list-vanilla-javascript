@@ -1,7 +1,74 @@
+#navbar {
+    overflow: hidden;
+    background-color: #000;
+    padding: 30px 80px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    color: #fff;
+}
+
+#navbar #logo .logo-highlight {
+    color: #FFC933;
+}
+
+#navbar #search {
+    background: #292929;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.content-body {
+    background: #292929;
+    padding-top: 150px;
+    min-height: 100vh;
+}
+
+.content-body .spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+
 /* Set book cover image size on desktop */
 .book-img {
-    width: 120px;
-    height: 180px;
+    border-radius: 16px;
+    width: 220px;
+    height: 330px;
+}
+
+.book-title {
+    font-family: Inter, serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.author {
+    font-family: Inter, serif;
+    font-size: 16px;
 }
 
 /* Add zoom animation class to zoom on hover */
@@ -14,6 +81,10 @@
 }
 
 @media only screen and (max-width: 576px) {
+    #navbar {
+        padding: 20px 30px;
+    }
+
     /* Set book cover image size for mobile */
     .book-img {
         width: 200px;
